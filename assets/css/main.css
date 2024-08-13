@@ -194,7 +194,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 8px #e4e4e4;
+		border-left: solid 8px #2c5740;
 		font-style: italic;
 		margin: 0 0 2.25em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -203,7 +203,7 @@ input, select, textarea {
 	code {
 		background: #555;
 		border-radius: 5px;
-		color: #ddd2c8;
+		color: #d7d3d0;
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1947,7 +1947,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #989898;
 			border-color: #989898;
-			color: #ddd2c8;
+			color: #d7d3d0;
 			content: '\f00c';
 		}
 
@@ -2404,7 +2404,7 @@ input, select, textarea {
 			ul.feature-icons li:before {
 				background: #510114;
 				border-radius: 100%;
-				color: #ddd2c8;
+				color: #d7d3d0;
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2807,7 +2807,7 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #ddd2c8;
+							background: #d7d3d0;
 							color: #510114 !important;
 						}
 
@@ -3077,7 +3077,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						background: #510114;
-						color: #ddd2c8;
+						color: #d7d3d0;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
