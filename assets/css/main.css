@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #b3ada7;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #251e19;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -110,18 +110,18 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
+		border-bottom: solid 1px #f8f2f1;
 		color: inherit;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #510114 !important;
+			color: #7e0c0c !important;
 		}
 
 	strong, b {
-		color: #777;
+		color: #f8f2f1;
 		font-weight: 700;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #482d28;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -194,7 +194,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 8px #2c5740;
+		border-left: solid 8px #482d28;
 		font-style: italic;
 		margin: 0 0 2.25em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -1759,7 +1759,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: #482d28;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #510114;
+			border-color: #7b7073;
 		}
 
 	select {
@@ -1902,7 +1902,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #888;
+			color: #645b5b;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1928,9 +1928,9 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #fafafa;
+				background: #e4e4e4;
 				border-radius: 5px;
-				border: solid 2px #e4e4e4;
+				border: solid 2px #d7d3d0;
 				content: '';
 				display: inline-block;
 				font-size: 0.8em;
@@ -1945,8 +1945,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #989898;
-			border-color: #989898;
+			background: #f8f2f1;
+			border-color: #f8f2f1;
 			color: #d7d3d0;
 			content: '\f00c';
 		}
@@ -2518,10 +2518,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #a59b92;
+		background-color: #f8f2f1;
 		border-radius: 5px;
 		border: 0;
-		color: #f4f4f4 !important;
+		color: #a59b92 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2538,14 +2538,14 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #8f857c;
-			color: #ffffff !important;
+			color: #f8f2f1 !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #8b8b8b;
+			background-color: #f8f2f1;
 		}
 
 		input[type="submit"].icon,
@@ -2619,21 +2619,22 @@ input, select, textarea {
 		input[type="button"].primary,
 		.button.primary {
 			background-color: #510114;
-			color: #f4f4f4 !important;
+			color: #f8f2f1 !important;
 		}
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #794847;
+				background-color: #f8f2f1;
+				color: #510114 !important;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #794847;
+				background-color: #510114;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2653,7 +2654,7 @@ input, select, textarea {
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		border-top: solid 3px #d7d3d0;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2701,7 +2702,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #510114;
-		color: #f4f4f4;
+		color: #f8f2f1;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2712,11 +2713,11 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #f4f4f4;
+			color: #f8f2f1;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #f4f4f4;
+				color: #f8f2f1;
 			}
 
 		#header header p {
@@ -2789,7 +2790,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #794847;
+					border-top: solid 2px #510114;
 					display: block;
 					padding: 0;
 				}
@@ -2800,7 +2801,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #f4f4f4 !important;
+						color: #f8f2f1 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2818,14 +2819,14 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #f4f4f4;
+		background: #cbc6c1;
 		padding-right: 23em;
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #b3ada7;
 	}
 
 		#main > section > .container {
@@ -2839,9 +2840,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #f4f4f4;
+		background: #b3ada7;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #e7e3e1;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
@@ -3030,13 +3031,13 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
-				color: #f4f4f4;
+				background: #251e19;
+				color: #d7d3d0;
 				min-width: 320px;
 			}
 
 				#titleBar .title {
-					color: #f4f4f4;
+					color: #d7d3d0;
 					display: block;
 					font-weight: 700;
 					height: 44px;
